@@ -11,7 +11,7 @@ public class StockSection extends StockComponent{
 	}
 	
 	public void add(StockComponent stockComponent){
-		stockComponent.add(stockComponent);
+		stockCompoments.add(stockComponent);
 	}
 	
 	public void remove(StockComponent stockComponent){
